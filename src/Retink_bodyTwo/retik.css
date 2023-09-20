@@ -1,0 +1,140 @@
+MultiStepForm.css */
+
+.multi-step-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-cont {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    display: flex;
+}
+
+.side-navigation {
+    flex: 1;
+    max-width: 5%;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F1EDFD;
+    border-radius: 2%;
+}
+
+.para {
+    color: #cccccc52;
+}
+
+li button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+}
+
+li button.activee {
+    color:  #5E3EBA;
+    border: none;
+}
+
+.side-navigation ul {
+    list-style: none;
+    padding: 0;
+    height:50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-navigation li {
+    padding: 5px 10px;
+    gap:2rem;
+    margin:2rem;
+    cursor: pointer;
+}
+
+.side-navigation li .par {
+    color: white;
+    margin-left: 50px;
+}
+.home-cont {
+    flex: 3;
+    width: 95%;
+    height: 100%;
+}
+.welcome{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+@media only screen and (max-width: 390px) {
+.multi-step-form {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100%;
+        background-color: whitesmoke;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .form-cont {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        display: flex;
+    }
+
+    .side-navigation {
+    display: none;
+    }
+
+    .para {
+        color: #cccccc52;
+    }
+
+    li button {
+       display: none;
+    }
+
+
+    .side-navigation ul {
+    display:none;
+    }
+
+    .side-navigation li {
+        display: none;
+    }
+
+    .side-navigation li .par {
+            display: none;
+    }
+
+    .home-cont {
+        flex: 3;
+        width: 95%;
+        height: 100%;
+    }
+
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+ /* Add any additional styling as needed */

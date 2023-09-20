@@ -1,0 +1,30 @@
+.vid{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: none;
+    /* border: 2px solid red; */
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    color:#7E1CFE;
+    margin-bottom: 6rem;
+}
+.vii{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+.video{
+    transition: all 0.5s ease-out;
+}
+.video:hover{
+    transform:scale(1.005);
+    transition: all 0.5s ease-out;
+    box-shadow: 1px 3px 10px rgba(94, 88, 88, 0.555);
+}

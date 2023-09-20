@@ -1,0 +1,12 @@
+.boos{
+    height:50px;
+    width:100%;
+}
+p{
+    display: center;
+    text-align: center;
+}
+b{
+    color:#7E1CFE;
+    text-shadow: 2px 4px 10px rgba(29, 28, 28, 0.466);
+}
